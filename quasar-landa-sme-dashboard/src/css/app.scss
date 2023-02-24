@@ -1,0 +1,199 @@
+// app global css in SCSS form
+.q-header {
+  min-height: 70px;
+  color: $dark;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.demo {
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fiscal-year-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account span {
+  padding-left: 5px;
+}
+
+.account .q-focus-helper {
+  display: none !important;
+}
+
+.header-label span {
+  padding-left: 20px;
+}
+
+.dashboard {
+  font-size: 24px;
+  color: #3f51b5 !important;
+}
+
+.settings {
+  font-size: 24px;
+  color: #feae00 !important;
+}
+
+.setting {
+  padding-left: 30px;
+}
+
+.q-item__label {
+  cursor: pointer;
+}
+
+.dashboard .q-item__label {
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
+
+.q-item__label {
+  color: #000000;
+}
+
+.q-item__section--main {
+  color: #000000;
+}
+
+.q-drawer {
+  box-shadow: 0 0 4px 0 rgba($color: #dbdbdb, $alpha: 3);
+}
+
+.ofs-section .q-icon {
+  height: 50px;
+}
+
+.q-item {
+  font-size: 14px;
+}
+
+.q-item__section--side > .add-icon {
+  font-size: 18px;
+}
+
+.q-list .q-focus-helper {
+  // display: none !important;
+}
+
+.dashboard-header {
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.q-page {
+  background: -webkit-linear-gradient(to left, #fff, #9acffa, #48a8f5);
+  background: linear-gradient(to left, #fff, #9acffa, #48a8f5);
+}
+
+.q-expansion-item {
+  color: $accent;
+}
+
+.q-expansion-item {
+  color: $accent;
+}
+
+.item-section .q-icon {
+  padding-left: 20px;
+}
+
+.q-expansion-item--expanded {
+  background-color: #e5fcff;
+}
+
+.proforma-q-card {
+  width: 220px;
+  height: 75px;
+  cursor: pointer;
+  background-color: rgb(77, 166, 77);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.invoice-q-card {
+  width: 220px;
+  height: 75px;
+  cursor: pointer;
+  background-color: #009688 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.payment-q-card {
+  width: 220px;
+  height: 75px;
+  cursor: pointer;
+  background-color: #ff9800 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.receipt-q-card {
+  width: 220px;
+  height: 75px;
+  cursor: pointer;
+  background-color: #03a9f4 !important;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+}
+
+.proforma-card {
+  font-size: 32px;
+}
+
+.my-card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
